@@ -67,3 +67,82 @@ footer {
 .button-alt:hover {
     background-color: #f4f4f4;
 }
+
+/*
+    2. Button
+*/
+.btn-theme {
+    padding: 10px 30px;
+    margin: 5px;
+    height: unset;
+    background-color: #747474;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #fff, 0 3px 9px rgba(0,0,0,0.3);
+}
+
+.btn-theme:hover, .btn-theme:active {
+    background-color: #808080;
+    color: #fff;
+}
+
+.btn-theme:focus {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #747474;
+}
+
+.btn-theme.no-shadow {
+    box-shadow: none !important;
+}
+
+.btn-theme-outline {
+    padding: 10px 30px;
+    margin: 5px;
+    height: unset;
+    background-color: transparent;
+    color: #747474;
+    border: 0;
+    font-weight: 500;
+    box-shadow: 0 0 0 2px #747474;
+}
+
+.btn-theme-outline:hover {
+    background-color: #747474;
+    color: #fff;
+}
+
+.btn-theme-outline:focus {
+    background-color: #747474;
+    color: #fff;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #747474;
+}
+
+.btn-rounded {
+    border-radius: 40px !important;
+}
+
+/* Floating Action Button */
+.btn-fab {
+    display: inline-block;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    border-radius: 50%;
+    line-height: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.btn-fab:focus,
+.btn-fab:active {
+    box-shadow: none;
+}
+
+.btn-fab.btn-sm {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}

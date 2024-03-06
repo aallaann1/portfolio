@@ -1424,3 +1424,23 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
